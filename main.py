@@ -41,13 +41,7 @@ def second_lower(q):
         q.dequeue()
     else:
         return
-    """
-    second = q.peek()
-    if second.islower():
-        q.dequeue()
-    else:
-        raise Syntaxfel("Saknad stor bokstav vid radslutet")
-    """
+
 
 def check_num(q):
     num = ""
